@@ -118,6 +118,8 @@ celerybeat.pid
 # Environments
 .env
 .venv
+.Pipfile
+.Pipfile.lock
 env/
 venv/
 ENV/
@@ -177,6 +179,7 @@ cython_debug/
 # Data files to be ignored
 *.json
 *.zip
+*.csv
 .env
 
 # Support for Project snippet scope
